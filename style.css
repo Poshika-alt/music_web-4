@@ -1,0 +1,32 @@
+
+.heading{
+    font-size: 23px;
+    width: 100%;
+    margin: 0px;
+    background-color: orange;
+   
+}
+
+#header{
+    font-family: 'Acme', sans-serif;
+}
+
+.note{
+    font-size: 18px;
+    color: black;
+}
+
+body{
+    background-size: cover;
+}
+
+.speed{
+    float: left;
+}
+.volume{
+    float: right;
+}
+.canvas{
+    border: 5px solid white;
+    border-radius: 5px;
+}

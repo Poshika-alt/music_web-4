@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Acme&display=swap" rel="stylesheet">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+    <title>Document</title>
+</head>
+<body background="https://image.freepik.com/free-vector/music-background-with-piano-keys_41770-148.jpg">
+    <center>
+        <div class="heading_div">
+            <h3 class=" heading">AI MUSIC APP
+                NOTE - Move your left-hand wrist up and down for increasing and decreasing the volume. Move your right-hand wrist up and down for increasing and decreasing the speed
+            </h3>
+            <br>
+            <br> 
+            <button onclick="song()" class="btn btn-info song_name">Song name</button>
+        </div>
+        <br>
+        <br>
+       <div class="speed">
+        <h3 class="btn btn-danger" id="speed" >
+            speed
+          </h3>
+       </div>
+    
+       <div class="volume">
+        <h3 class="btn btn-danger" id="volume" >
+           volume
+          </h3>
+       </div>
+    
+       <br><br>
+    
+         <button onclick="play()" class="btn btn-success">Play</button>
+         <button onclick="pause()" class="btn btn-danger">Pause</button>
+    </center>
+    
+</body>
+</html>
